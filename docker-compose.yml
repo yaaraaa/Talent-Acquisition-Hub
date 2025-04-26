@@ -5,8 +5,6 @@ services:
     container_name: django_backend
     ports:
       - "8000:8000"
-    volumes:
-      - /mnt/d/Users/yara.mahfouz/Downloads/TA-Chatbot/Backend:/app
     env_file:
       - ./Backend/.env
     command: python manage.py runserver 0.0.0.0:8000
@@ -17,8 +15,6 @@ services:
     container_name: streamlit_frontend
     ports:
       - "8501:8501"
-    volumes:
-      - /mnt/d/Users/yara.mahfouz/Downloads/TA-Chatbot/Frontend:/app
     env_file:
       - ./Frontend/.env
     command: streamlit run app.py --server.port=8501 --server.address=0.0.0.0
