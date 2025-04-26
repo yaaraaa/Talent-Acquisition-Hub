@@ -2,6 +2,8 @@
 
 The **Talent Acquisition Hub** project is an intelligent system designed to streamline the recruitment process by parsing resumes, retrieving relevant candidate information, and enabling conversational interactions with recruiters. It leverages cutting-edge technologies like **RAG pipelines**, **Milvus vector databases**, and **Hugging Face models** for efficient document processing and natural language understanding.
 
+![image](https://github.com/user-attachments/assets/f67c6e91-f9fd-444a-a2e6-aacf7bd121f2)
+
 ## Features
 
 - **Resume Parsing**: Processes PDF resumes, extracts structured data, and stores embeddings in a vector database.
